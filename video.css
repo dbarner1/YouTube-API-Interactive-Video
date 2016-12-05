@@ -1,0 +1,94 @@
+
+
+#wrapper {
+	position:relative;
+	height: 390px;
+	width: 640px;
+	margin:0 auto;
+}
+
+button {
+	width:75px;
+	height:25px;
+}
+
+button #chapter1, #chapter2, #popUpButton {
+	width:75px;
+	height:50px;
+}
+
+#chapter1 {
+	position:absolute;
+	top:150px;
+	left:0;
+	height:50px;
+	width:75px;
+}
+
+#chapter2 {
+	position:absolute;
+	top:200px;
+	left:0;
+	height:50px;
+	width:75px;
+}
+
+
+iframe {
+	width:100%;
+	height:100%;
+}
+
+#playButton, .pause {
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#stopButton {
+	position:absolute;
+	bottom:0;
+	left:75px;
+}
+
+
+#buttons {
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:100%;
+	width:50%;
+}
+
+.takeover {
+	position:absolute;
+	background-color:rgba(0,0,0,.8);
+	height:100%;
+	width:100%;
+	z-index:100;
+}
+
+#timeHolder {
+	height:100px;
+	width:100px;
+	background:grey;
+	color:white;
+}
+
+input {
+	zi-index:101;
+	margin-left:250px;	
+	margin-right:250px;
+	margin-top:180px;
+	width:140px;
+}
+
+button.takeoverButton {
+	width:140px;
+	height:40px;
+	margin-left:253px;	
+}
+
+button#popUpButton {
+	width:300px;
+}
